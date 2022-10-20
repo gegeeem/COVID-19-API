@@ -17,10 +17,18 @@ const Footer = () => {
           >
             <FacebookIcon className="icons" />
           </a>
-          <a href="https://www.instagram.com/nhs/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/nhs/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <InstagramIcon className="icons" />
           </a>
-          <a href="https://twitter.com/nhscovid19app" target="_blank" rel="noreferrer">
+          <a
+            href="https://twitter.com/nhscovid19app"
+            target="_blank"
+            rel="noreferrer"
+          >
             <TwitterIcon className="icons" />
           </a>
         </div>
@@ -94,13 +102,6 @@ const Footer = () => {
                 onClick={() => window.scrollTo(0, 0)}
               >
                 Country Stats
-              </NavLink>
-              <NavLink
-                className="footerlink"
-                to={"/about-us"}
-                onClick={() => window.scrollTo(0, 0)}
-              >
-                About us
               </NavLink>
             </>
           )}

@@ -29,16 +29,6 @@ const CovidStats = () => {
       setCovidStats(response.data.response);
       setLoading(false);
     });
-
-    // axios
-    //   .get("https://covid-193.p.rapidapi.com/statistics/`${}")
-    //   .then((res) => {
-    //     console.log(res.data.response);
-    //     setGetCovidStats(res.data.response);
-    //   })
-    //   .catch((err) => {
-    //     console.log(err);
-    //   });
   };
 
   const perPage = 12;
@@ -49,7 +39,6 @@ const CovidStats = () => {
 
   useEffect(() => {
     getDataCovidStats();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

@@ -25,7 +25,6 @@ const HomePage = () => {
 
   useEffect(() => {
     getDataCovidStats();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   console.log();
@@ -42,7 +41,6 @@ const HomePage = () => {
             className="w-full mt-5"
             style={{ height: "" }}
             src="https://www.bloomberg.com/graphics/2020-coronavirus-cases-world-map/img/2020-coronavirus-cases-world-map-facebook.png?t=202011091543"
-            // style={{ objectFit: "contain" }}
             alt="background"
           ></img>
           <h1
@@ -138,23 +136,6 @@ const HomePage = () => {
       )}
     </>
   );
-}; /* {covidWorldStats.reduce(
-                  (prev, curr) => (prev += curr?.deaths?.total || 0),
-                  0
-                )} */
-/* {covidWorldStats.map((el) => (
-                  <p key={el.id}></p>
-                ))} */
-
-/* {covidWorldStats.reduce(
-                  (prev, curr) => (prev += curr?.cases?.recovered || 0),
-                  0
-                )} */
-/* {covidWorldStats.map((el) => (
-                  <p key={el.id}>{el.cases.recovered}</p>
-                ))} */
-/* {covidWorldStats.reduce(prev, (curr) => {
-                  prev + curr;
-                })} */
+};
 
 export default HomePage;

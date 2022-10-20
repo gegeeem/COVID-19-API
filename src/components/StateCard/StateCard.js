@@ -59,11 +59,7 @@ export default function StateCard({
           </h4>
         </div>
       ) : (
-        // <h4 className="text-xl grid grid-rows-2  bg-white rounded-lg p-3">
-        //   <span className="inline-block text-base text-gray-700 font-medium text-center">
-        //     Loading...
-        //   </span>
-        // </h4>
+        
 
         <div className="grid grid-rows-2">
           <div className="grid grid-cols-3 gap-6  pt-2 pb-2 rounded  justify-evenly">

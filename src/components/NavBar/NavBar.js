@@ -31,9 +31,6 @@ const NavBar = () => {
           <NavLink className="country" to={"/country-stats"}>
             COUNTRY STATS
           </NavLink>
-          <NavLink className="about" to={"/about-us"}>
-            ABOUT US
-          </NavLink>
         </div>
       </div>
     </>
