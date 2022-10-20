@@ -13,7 +13,7 @@ function App() {
       <main style={{ minHeight: "80vh", backgroundColor: "white" }}>
         <Routes>
           <Route path={"/"} element={<Homepage />} />
-          <Route path={"/stats"} element={<CovidStats />} />
+          {/* <Route path={"/stats"} element={<CovidStats />} /> */}
           <Route path={"/country-stats"} element={<CountryCovidStats />} />
         </Routes>
       </main>
