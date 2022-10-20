@@ -29,6 +29,8 @@ const CovidStats = () => {
       setCovidStats(response.data.response);
       setLoading(false);
     });
+
+    
   };
 
   const perPage = 12;
@@ -39,6 +41,7 @@ const CovidStats = () => {
 
   useEffect(() => {
     getDataCovidStats();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
