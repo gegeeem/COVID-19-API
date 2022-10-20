@@ -25,9 +25,9 @@ const NavBar = () => {
         </NavLink>
 
         <div className="flex gap-5 text-xl text-black pr-9">
-          <NavLink className="covid" to={"/stats"}>
+          {/* <NavLink className="covid" to={"/stats"}>
             COVID STATS
-          </NavLink>
+          </NavLink> */}
           <NavLink className="country" to={"/country-stats"}>
             COUNTRY STATS
           </NavLink>
