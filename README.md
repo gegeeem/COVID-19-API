@@ -1,9 +1,12 @@
 
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 #Project site
 https://app.netlify.com/sites/cvd-19-tracker
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Available Scripts
 
 In the project directory, you can run:
