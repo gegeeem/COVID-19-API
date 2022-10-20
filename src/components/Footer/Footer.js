@@ -109,7 +109,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center pt-5">
           <p style={{ color: "black", fontSize: "20px", cursor: "default" }}>
-            © Covid 19 Coorporation
+            © Covid 19 Coorporation msm
           </p>
         </div>
       </div>
